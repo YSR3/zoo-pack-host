@@ -3,7 +3,7 @@
   "packId": "san-antonio-zoo",
   "version": 1,
   "publishedAt": "2026-02-15T00:00:00Z",
-  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host",
+  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host/packs/san-antonio-zoo/v1/",
   "animals": [
     {
       "animalId": "bb_001",
@@ -43,4 +43,5 @@
     }
   ]
 }
+
 
