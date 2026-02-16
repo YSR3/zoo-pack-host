@@ -1,0 +1,45 @@
+{
+  "schemaVersion": 1,
+  "packId": "san-antonio-zoo",
+  "version": 1,
+  "publishedAt": "2026-02-15T00:00:00Z",
+  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/",
+  "animals": [
+    {
+      "animalId": "bb_001",
+      "name": "American Black Bear",
+      "scientificName": "Ursus americanus",
+      "description": "A powerful omnivore found across North America.",
+      "facts": [
+        "Excellent climbers, especially when young.",
+        "Sense of smell is extremely strong.",
+        "Diet is mostly plants, insects, and occasional meat."
+      ],
+      "heroAssetId": "img_bb_001_hero",
+      "galleryAssetIds": [],
+      "audioAssetId": null
+    }
+  ],
+  "stops": [
+    {
+      "stopId": "stop_001",
+      "animalId": "bb_001",
+      "lat": 29.4612,
+      "lon": -98.4719,
+      "radiusM": 25,
+      "dwellMs": 1500,
+      "cooldownMs": 180000
+    }
+  ],
+  "assets": [
+    {
+      "assetId": "img_bb_001_hero",
+      "type": "image",
+      "role": "hero",
+      "path": "images/bb_001_hero.jpg",
+      "bytes": null,
+      "sha256": null,
+      "required": true
+    }
+  ]
+}
