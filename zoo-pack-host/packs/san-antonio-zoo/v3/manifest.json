@@ -1,0 +1,15 @@
+{
+  "packId": "san-antonio-zoo",
+  "version": 3,
+  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/packs/san-antonio-zoo/v3/",
+  "generatedAt": "2026-03-01T21:08:23.408Z",
+  "files": {
+    "zones": "content/index/zones.json.gz",
+    "pois": "content/index/pois.json.gz",
+    "animalsIndex": "content/index/animals_index.json.gz",
+    "animalChunks": [
+      "content/animals/chunks/animals_000.json.gz",
+      "content/animals/chunks/animals_001.json.gz"
+    ]
+  }
+}
