@@ -2,7 +2,7 @@
   "packId": "san-antonio-zoo",
   "schemaVersion": 1,
   "version": 1,
-  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host/packs/san-antonio-zoo/v1/",
+  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/packs/san-antonio-zoo/v1/",
   "generatedAt": "2026-03-04T02:46:58.414Z",
   "indexes": {
     "animalsIndexAssetId": "asset_724a27ceb43d",
