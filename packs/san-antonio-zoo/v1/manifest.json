@@ -1,55 +1,55 @@
 {
-  "packId": "san-antonio-zoo",
-  "schemaVersion": 1,
-  "version": 1,
-  "assetsBaseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host/packs/san-antonio-zoo/v1/",
-  "generatedAt": "2026-03-04T02:46:58.414Z",
+  "experienceId": "san-antonio-zoo",
+  "schemaVersion": 2,
+  "releaseVersion": 1,
+  "baseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host/packs/san-antonio-zoo/v1/",
+  "generatedAt": "2026-03-11T22:47:15.953Z",
   "indexes": {
-    "animalsIndexAssetId": "asset_724a27ceb43d",
+    "entitiesIndexAssetId": "asset_1f1cb49f30a0",
     "zonesAssetId": "asset_23dae672cc33",
     "poisAssetId": "asset_cfb602be445b"
   },
   "files": {
     "zones": "content/index/zones.json.gz",
     "pois": "content/index/pois.json.gz",
-    "animalsIndex": "content/index/animals_index.json.gz",
-    "animalChunks": [
-      "content/animals/chunks/animals_000.json.gz",
-      "content/animals/chunks/animals_001.json.gz"
+    "entitiesIndex": "content/index/entities_index.json.gz",
+    "entityChunks": [
+      "content/entities/chunks/entities_000.json.gz",
+      "content/entities/chunks/entities_001.json.gz"
     ]
   },
   "assets": [
     {
       "assetId": "asset_0ec8af0c3864",
       "type": "data",
-      "role": "animal_chunk",
+      "role": "entity_chunk",
       "required": true,
-      "path": "content/animals/chunks/animals_000.json.gz",
+      "path": "content/entities/chunks/entities_000.json.gz",
       "bytes": 25897,
       "sha256": "0ec8af0c386427761f4906d37fe446fddc497c33a701f7fb7007f331bf58a394"
     },
     {
       "assetId": "asset_237a1889237a",
       "type": "data",
-      "role": "animal_chunk",
+      "role": "entity_chunk",
       "required": true,
-      "path": "content/animals/chunks/animals_001.json.gz",
+      "path": "content/entities/chunks/entities_001.json.gz",
       "bytes": 24298,
       "sha256": "237a1889237a481a3333619da2cfb1881f7f255a167e0965149923071241f4f1"
     },
     {
-      "assetId": "asset_724a27ceb43d",
+      "assetId": "asset_1f1cb49f30a0",
       "type": "data",
-      "role": "animals_index",
+      "role": "entity_index",
       "required": true,
-      "path": "content/index/animals_index.json.gz",
-      "bytes": 63573,
-      "sha256": "724a27ceb43d2deefb437b7abab9103f54041854219b47c81bc1415ea1dd12b6"
+      "path": "content/index/entities_index.json.gz",
+      "bytes": 63582,
+      "sha256": "1f1cb49f30a07f7eabc57712e37a69e15d9e04f3d8648243469cf640614c6b72"
     },
     {
       "assetId": "asset_cfb602be445b",
       "type": "data",
-      "role": "pois",
+      "role": "poi_index",
       "required": true,
       "path": "content/index/pois.json.gz",
       "bytes": 231,
@@ -58,7 +58,7 @@
     {
       "assetId": "asset_23dae672cc33",
       "type": "data",
-      "role": "zones",
+      "role": "zone_index",
       "required": true,
       "path": "content/index/zones.json.gz",
       "bytes": 1181,
