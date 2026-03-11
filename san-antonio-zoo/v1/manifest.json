@@ -2,7 +2,7 @@
   "experienceId": "san-antonio-zoo",
   "schemaVersion": 2,
   "releaseVersion": 1,
-  "baseUrl": "https://ysr3.github.io/zoo-pack-host/zoo-pack-host/packs/san-antonio-zoo/v1/",
+  "baseUrl": "https://ysr3.github.io/zoo-pack-host/packs/san-antonio-zoo/v1/",
   "generatedAt": "2026-03-11T22:47:15.953Z",
   "indexes": {
     "entitiesIndexAssetId": "asset_1f1cb49f30a0",
